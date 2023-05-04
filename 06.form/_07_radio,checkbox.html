@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택할 수 있는 input을 만들어주는 radio, checkbox</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>신청과목</legend>
+            <!--checkbox, radio name 으로 그룹화해서 지정할 수 있다-->
+            <lable>
+                <input type="checkbox" 
+                namw="subject" 
+                value="java">자바
+            </lable>
+            <lable>
+                <input type="checkbox" 
+                namw="subject" 
+                value="c">c언어
+            </lable>
+            <lable>
+                <input type="checkbox" 
+                namw="subject" 
+                value="python">파이썬
+            </lable>
+        </fieldset>
+        <fieldset>
+            <legend>신청과목</legend>
+            <!--checkbox, radio 그룹외에서 지정할 수 있다-->
+            <lable>
+                <input type="radio" 
+                namw="day1" 
+                value="mon">월요일
+            </lable>
+            <lable>
+                <input type="radio" 
+                namw="day2" 
+                value="tue">화요일
+            </lable>
+            <lable>
+                <input type="radio" 
+                namw="da3" 
+                value="wedn">수요일
+            </lable>
+        </fieldset>
+    </form>
+</body>
+</html>
